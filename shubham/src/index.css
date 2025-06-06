@@ -1,26 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap');
-
-  @layer base{
-    body{
-      @apply font-[Raleway]
-    }
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-body {
-  margin: 0;
-  
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell','Raleway', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
-    font-family: 'Raleway';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  body {
+    @apply font-sans text-secondary-900 dark:text-white bg-white dark:bg-secondary-900;
+  }
+
+  ::selection {
+    @apply bg-primary-500/30;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-20;
+  }
+
+  .heading {
+    @apply text-4xl font-bold text-secondary-900 dark:text-white;
+  }
+
+  .subheading {
+    @apply text-lg text-secondary-600 dark:text-secondary-400;
+  }
+
+  .link {
+    @apply text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-200;
+  }
+
+  .button {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-200;
+  }
+
+  .button-primary {
+    @apply button bg-primary-600 text-white hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-600;
+  }
+
+  .button-secondary {
+    @apply button border-2 border-primary-600 text-primary-600 hover:bg-primary-50 dark:border-primary-400 dark:text-primary-400 dark:hover:bg-secondary-800;
+  }
+
+  .card {
+    @apply bg-white dark:bg-secondary-800 rounded-2xl shadow-lg overflow-hidden;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary-100 dark:bg-secondary-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-200 dark:bg-primary-900 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-300 dark:bg-primary-800;
+}
+
+/* Form Elements */
+input,
+textarea {
+  @apply w-full px-4 py-3 rounded-lg border border-secondary-200 dark:border-secondary-700 bg-white dark:bg-secondary-800 text-secondary-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 transition-all duration-200;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  @apply w-6 h-6 border-2 border-primary-200 dark:border-primary-900 border-t-primary-600 dark:border-t-primary-400 rounded-full animate-spin;
+}
+
+/* Toast Notifications */
+.toast {
+  @apply fixed bottom-4 right-4 px-6 py-3 rounded-lg shadow-lg transform transition-all duration-300;
+}
+
+.toast-success {
+  @apply toast bg-green-500 text-white;
+}
+
+.toast-error {
+  @apply toast bg-red-500 text-white;
+}
+
+/* Backdrop Blur */
+.backdrop-blur {
+  @apply backdrop-filter backdrop-blur-md;
+}
+
+/* Glass Effect */
+.glass {
+  @apply bg-white/80 dark:bg-secondary-900/80 backdrop-blur;
+}
+
+/* Grid Layout */
+.grid-auto-fit {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Responsive Typography */
+.text-responsive {
+  @apply text-base sm:text-lg lg:text-xl;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  @apply p-2 rounded-full hover:bg-secondary-100 dark:hover:bg-secondary-800 transition-colors duration-200;
 }

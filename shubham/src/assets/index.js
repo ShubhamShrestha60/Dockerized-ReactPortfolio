@@ -26,18 +26,25 @@ import youtube from './youtube.png'
 import instagram from './Instagram.png'
 import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
-
-
-
-
-
-
-
-
+import github from './github.png'
+import gmail from './gmail.png'
 
 export {
-    logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,
+    logo,
+    cognizantLogo,
+    wellsLogo,
+    nodejs,
+    contactusbg,
+    phone,
+    youtube,
+    instagram,
+    facebook,
+    linkdin,
+    github,
+    gmail,
+    homeImage,
+    aflacLogo,
+    wiuLogo,
     book,
     laptop,
     skill,
@@ -51,5 +58,4 @@ export {
     react,
     wave,
     robo
-
 }
