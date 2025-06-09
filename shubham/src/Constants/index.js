@@ -31,7 +31,7 @@ export const AppText={
     WorkedFor:'Worked With',
     Contact:'Contact ',
     Us:'Me',
-    copywriteText:'© 2024 Shubham Shrestha. All rights reserved.'
+    copywriteText:'© 2025 Shubham Shrestha. All rights reserved.'
 }
 
 export const aboutSection=[
