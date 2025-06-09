@@ -4,15 +4,15 @@ import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
 
-import angular from './angular.png'
-import ionic from './ionic.png'
-import firebase from './firebase.png'
-import typescript from './typescript.png'
+import Jenkins from './Jenkins.png'
+import Docker from './Docker.png'
+import Linux from './Linux.png'
+import MongoDB from './MongoDB.png'
 import mysql from './mysql.png'
 import nodejs from './nodejs.png'
 
 import gitlab from './gitlab.jpg'
-import android from './android.png'
+import Java from './Java.png'
 import react from './react.png'
 import wave from './wave.svg'
 import robo from './robo.png'
@@ -48,14 +48,14 @@ export {
     book,
     laptop,
     skill,
-    angular,
-    typescript,
-    android,
+    Jenkins,
+    Java,
     gitlab,
-    ionic,
-    firebase,
+    Docker,
+    Linux,
     mysql,
     react,
     wave,
+    MongoDB,
     robo
 }

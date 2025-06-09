@@ -27,7 +27,7 @@ const Home = () => {
   // Function to handle resume download
   const handleResumeClick = () => {
     // Get the file ID from the Google Drive link
-    const fileId = "1dqDs2alezzd9eIcj3gXNw-OKD_BfSRtB";
+    const fileId = "1QDn7PLY6mmsm-M0xnTk07oUVXjRwMNVP";
     
     // Create the preview link
     const previewLink = `https://drive.google.com/file/d/${fileId}/preview`;
@@ -69,10 +69,7 @@ const Home = () => {
                 options={{
                   strings: [
                     AppText.ShubhamShrestha,
-                    AppText.FrontedDeveloper,
-                    AppText.UIUXDesigner,
-                    AppText.BackendDeveloper,
-                    AppText.GraphiteArtist
+                    AppText.FullStackDeveloper
                   ],
                   autoStart: true,
                   loop: true,

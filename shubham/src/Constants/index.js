@@ -1,19 +1,19 @@
 import {
   aflacLogo,
-  android,
-  angular,
+  Java,
+  Jenkins,
   cognizantLogo,
-  firebase,
+  Linux,
   github,
   gmail,
-  ionic,
+  Docker,
   linkdin,
   mysql,
   nodejs,
   react,
   robo,
   skill,
-  typescript,
+  MongoDB,
   wellsLogo,
 } from "../assets"
 
@@ -24,10 +24,7 @@ export const AppText={
     aboutMeDescripion:'A passionate Computer Science student and aspiring Full Stack Developer with a strong foundation in modern web technologies. I combine technical expertise with creative problem-solving to build innovative digital solutions.',
     Skills:'Skills & ',
     Experties:'Expertise',
-    UIUXDesigner:'UI/UX Designer',
-    BackendDeveloper:'Backend Developer',
-    FrontedDeveloper:'Frontend Developer',
-    GraphiteArtist:'Creative Developer',
+    FullStackDeveloper:'Full Stack Developer',
     Portfolio:'Portfolio',
     Creative:'My Creative ',
     CompaniesI:'Companies I ',
@@ -35,7 +32,6 @@ export const AppText={
     Contact:'Contact ',
     Us:'Me',
     copywriteText:'© 2024 Shubham Shrestha. All rights reserved.'
-
 }
 
 export const aboutSection=[
@@ -67,8 +63,8 @@ export const skillsList=[
     },
     {
         id:2,
-        icon:typescript,
-        name:'TypeScript'
+        icon:MongoDB,
+        name:'MongoDB'
     },
     {
         id:3,
@@ -77,8 +73,8 @@ export const skillsList=[
     },
     {
         id:4,
-        icon:firebase,
-        name:'Firebase'
+        icon:Linux,
+        name:'Linux'
     },
     {
         id:5,
@@ -87,35 +83,35 @@ export const skillsList=[
     },
     {
         id:6,
-        icon:angular,
-        name:'Angular'
+        icon:Jenkins,
+        name:'Jenkins'
     },
     {
         id:7,
-        icon:android,
-        name:'Android'
+        icon:Java,
+        name:'Java'
     },
     {
         id:8,
-        icon:ionic,
-        name:'Ionic'
+        icon:Docker,
+        name:'Docker'
     },
 ]
 
 export const workDetail=[
     { 
         id:1,
+        year:'2024-Present',
+        compnayName:'Freelance',
+        position:'Full Stack Developer',
+        description:'Architecting and developing diverse web applications using various technology stacks including React, Node.js, Python/Django, Java Spring Boot, and cloud services. Implementing responsive frontends, scalable backend APIs, and database solutions (SQL/NoSQL) while ensuring best practices in security and performance.'
+    },
+    { 
+        id:2,
         year:'2023',
         compnayName:'Herald College Kathmandu',
         position:'Business Development Intern',
         description:'Led market research initiatives and developed business strategies for college growth.'
-    },
-    { 
-        id:2,
-        year:'2021',
-        compnayName:'Opera Eye Wear',
-        position:'Sales Executive',
-        description:'Managed client relationships and exceeded sales targets through effective communication.'
     },
     // { 
     //     id:1,
@@ -134,34 +130,34 @@ export const workDetail=[
 export const portfolio=[
     {
         id:1,
-        title:'Real Estate Platform',
-        type:'ui/ux',
-        desc:'A modern real estate platform with advanced search capabilities and interactive property listings.',
-        imageUrl:'https://cdn.dribbble.com/userupload/17409801/file/original-e77eab702bee68dba64f8878798cdb32.png?resize=1024x768&vertical=center',
-        technologies:['React','Node.js','MongoDB'],
-        liveUrl:'#',
-        githubUrl:'#'
+        title:'Eyewear E-commerce with Virtual Try-On',
+        type:'website',
+        desc:'A comprehensive e-commerce platform for eyewear business featuring an innovative virtual try-on system. The platform manages various product categories including sunglasses, contact lenses, and prescription glasses, while offering a unique AR experience for customers.',
+        imageUrl:'https://images.unsplash.com/photo-1577744486770-020ab432da65?auto=format&fit=crop&w=800&q=80',
+        technologies:['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Python', 'MediaPipe', 'OpenCV', 'Tailwind CSS'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/FYP'
     },
     {
         id:2,
-        title:'Business Directory App',
-        type:'mobile',
-        desc:'Cross-platform mobile application for discovering and connecting with local businesses.',
-        imageUrl:'https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png',
-        technologies:['React Native','Firebase','Google Maps API'],
-        liveUrl:'#',
-        githubUrl:'#'
+        title:'Car Rental Service',
+        type:'website',
+        desc:'A full-stack car rental application built using the MERN stack. Led a team using Agile methodology to deliver a comprehensive platform with booking functionality and an intuitive user interface.',
+        imageUrl:'https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=800&q=80',
+        technologies:['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Bootstrap'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/ProjectVroom-CarRental-2.0'
     },
     {
         id:3,
-        title:'Food Delivery Platform',
-        type:'ui/ux',
-        desc:'Intuitive food delivery platform with real-time order tracking and restaurant management.',
-        imageUrl:'https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png',
-        technologies:['React','Express','MongoDB','Socket.io'],
-        liveUrl:'#',
-        githubUrl:'#'
-    },
+        title:'Comic Zone',
+        type:'website',
+        desc:'A scalable comic reading application with comprehensive features including secure JWT authentication, cloud-based file management, real-time notifications, and an admin dashboard. Special emphasis on accessibility with color-blind friendly themes.',
+        imageUrl:'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=800',
+        technologies:['React', 'Node.js', 'MongoDB', 'JWT', 'Cloudinary', 'Styled Components', 'Axios'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/ComicApp'
+    }
 ]
 
 export const CompanyImage = [
