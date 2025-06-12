@@ -130,6 +130,16 @@ export const workDetail=[
 export const portfolio=[
     {
         id:1,
+        title:'TaskFlow Pro',
+        type:'website',
+        desc:'A modern task and team management application featuring real-time task tracking, team collaboration via chat, and a sleek responsive UI with light/dark themes. Includes an interactive dashboard with analytics, profile customization, and calendar integration for events and deadlines.',
+        imageUrl:'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
+        technologies:['React', 'Styled Components', 'Theme Customization', 'Framer Motion', 'Real-time Updates'],
+        liveUrl:'https://taskf-flow-pro.vercel.app/',
+        githubUrl:'https://github.com/ShubhamShrestha60/TaskfFlowPro'
+    },
+    {
+        id:2,
         title:'Eyewear E-commerce with Virtual Try-On',
         type:'website',
         desc:'A comprehensive e-commerce platform for eyewear business featuring an innovative virtual try-on system. The platform manages various product categories including sunglasses, contact lenses, and prescription glasses, while offering a unique AR experience for customers.',
@@ -139,7 +149,7 @@ export const portfolio=[
         githubUrl:'https://github.com/ShubhamShrestha60/FYP'
     },
     {
-        id:2,
+        id:3,
         title:'Car Rental Service',
         type:'website',
         desc:'A full-stack car rental application built using the MERN stack. Led a team using Agile methodology to deliver a comprehensive platform with booking functionality and an intuitive user interface.',
@@ -148,8 +158,9 @@ export const portfolio=[
         liveUrl:'',
         githubUrl:'https://github.com/ShubhamShrestha60/ProjectVroom-CarRental-2.0'
     },
+  
     {
-        id:3,
+        id:4,
         title:'Comic Zone',
         type:'website',
         desc:'A scalable comic reading application with comprehensive features including secure JWT authentication, cloud-based file management, real-time notifications, and an admin dashboard. Special emphasis on accessibility with color-blind friendly themes.',
@@ -157,6 +168,37 @@ export const portfolio=[
         technologies:['React', 'Node.js', 'MongoDB', 'JWT', 'Cloudinary', 'Styled Components', 'Axios'],
         liveUrl:'',
         githubUrl:'https://github.com/ShubhamShrestha60/ComicApp'
+    },
+
+    {
+        id:7,
+        title:'Full-Stack Chat Application',
+        type:'website',
+        desc:'A full-stack chat application with a responsive user interface and robust backend API. Features include dynamic mobile-friendly user list with smooth scrolling, text overflow management, and real-time messaging capabilities. The application ensures seamless communication across devices with robust user session management.',
+        imageUrl:'https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=800&q=80',
+        technologies:['React.js', 'Node.js', 'Express.js', 'Socket.io', 'Responsive Design', 'Real-time Communication'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/live-chat-app'
+    },
+    {
+        id:5,
+        title:'Traffic Sign Classification System',
+        type:'AI/ML',
+        desc:'A sophisticated deep learning system for traffic sign classification featuring multiple CNN architectures. The project implements custom CNN, regularized deeper CNN, and MobileNetV2 transfer learning models. Achieved 98%+ accuracy with robust handling of class imbalance through data augmentation. Optimized using Adam and SGD optimizers with comprehensive performance metrics.',
+        imageUrl:'https://images.unsplash.com/photo-1573511860302-28c524319d2a?auto=format&fit=crop&w=800&q=80',
+        technologies:['Python', 'TensorFlow', 'CNN', 'Transfer Learning', 'Data Augmentation', 'MobileNetV2'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/TrafficSign_ImageClassifcation_CNN'
+    },
+    {
+        id:6,
+        title:'Course Management System',
+        type:'desktop',
+        desc:'A comprehensive desktop-based course management system with role-based access control. Features separate dashboards for students, teachers, and administrators. Implements secure user authentication, module enrollment, grade management, and course administration. Built with Java Swing for an intuitive GUI and JDBC for robust database operations.',
+        imageUrl:'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80',
+        technologies:['Java', 'Swing', 'JDBC', 'MySQL', 'OOP', 'GUI Design'],
+        liveUrl:'',
+        githubUrl:'https://github.com/ShubhamShrestha60/CourseManagementSystem/tree/main'
     }
 ]
 
