@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { AppText } from './../Constants';
 import { homeImage } from './../assets';
 
-const RESUME_FILE_ID = "1QDn7PLY6mmsm-M0xnTk07oUVXjRwMNVP";
+const RESUME_FILE_ID = "1sYgDPb4B9Ksr0rqzendPCp-R00w7Wlny";
 const PREVIEW_URL = `https://drive.google.com/file/d/${RESUME_FILE_ID}/preview`;
 const DOWNLOAD_URL = `https://drive.google.com/uc?export=download&id=${RESUME_FILE_ID}`;
 

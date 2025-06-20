@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { AppText, portfolio } from '../Constants';
-import { robo } from './../assets/index';
+import {  portfolio } from '../Constants';
+
 
 const Portfolio = () => {
   const [selectedFilter, setSelectedFilter] = useState('All');
@@ -230,7 +230,7 @@ const Portfolio = () => {
                       <div className="flex items-center space-x-2">
                         <span className={`w-2 h-2 rounded-full ${selectedProject.liveUrl ? 'bg-green-500' : 'bg-yellow-500'}`} />
                         <span className="text-sm text-white/90">
-                          {selectedProject.liveUrl ? 'Live' : 'In Development'}
+                          {selectedProject.liveUrl ? 'Live' : 'Developed'}
                         </span>
                       </div>
                     </div>
